@@ -1,0 +1,27 @@
+24
+label mul
+def arg1 0x0
+def arg2 0x0
+load arg1 $0
+load arg2 $1
+def prod 0x0
+def one 0x1
+label mul_loop
+add prod prod arg2
+sub arg1 arg1 one
+cbz arg1 mul_end
+jmp mul_loop
+label mul_end
+store $0 prod
+ret
+label main
+def a 0x6
+def b 0x7
+store $0 a
+store $1 b
+call mul
+load a $0
+print a
+ret
+n
+

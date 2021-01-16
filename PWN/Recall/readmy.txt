@@ -1,0 +1,10 @@
+Recall
+350
+
+Feel free to run your binary and use our tracer-call® services!
+
+We made sure you won't be able to read the flag anyway ;)
+
+nc recall.shieldchallenges.com 9022
+
+Flag?

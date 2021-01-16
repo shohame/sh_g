@@ -1,0 +1,6 @@
+capstone
+construct
+unicorn
+keystone-engine
+quantumrandom
+pycrypto

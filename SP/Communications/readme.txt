@@ -1,4 +1,5 @@
 Communications:
+300
 
 A bomb has been hidden in the north. 
 Luckily for us, the bomb must be activated manually, 
